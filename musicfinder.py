@@ -44,8 +44,8 @@ class Keys:
     )
     
 bot = Robot(
-    'BHEHA0HGFBWHAPODZJTFXJJGFTYOSDCGTQFVDQQHIMUBQZVGSKKBPOWYCACOCELS',
-    web_hook = 'https://bots.aliranjbarapi.ir/music/get_message.php?key=your-secret-api-key'
+    '', #enter bot token
+    web_hook = '' # enter webhook bot
 )
 ddgs = DDGS()
 def find_music(prompt) ->  str:
@@ -193,5 +193,6 @@ while True:
 
 # link = find_music('الو از تتلو ')
 # download_files(link)
+
 
 
